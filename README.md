@@ -30,6 +30,7 @@
 **Next Steps:**
 1. Inorder to confirm the observations derived through EDA, I have created 2 subplots in the data with categories of applicants – Loan previously approved, but the applicant has turned defaulter, Loan previously refused but the applicant has turned repayer.
 2. I then checked if the observations found in EDA are confirmed by these two subplots of the data.
+
 **Conclusion:**
 1. The current and previous application data is imbalanced. Distribution of its variables is skewed.
 2. We were able to confirm few observations from the EDA.
