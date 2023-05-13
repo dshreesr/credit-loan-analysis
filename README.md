@@ -1,7 +1,7 @@
 # credit-loan-analysis
 **Problem Statement:** To find the patterns, variables or driving factors in the data that will help avoid denying the loan to the applicants capable of repaying it.
 
-**Design: **
+**Design:**
 1.	We have two types of data for analysis. One consists of current applicants, with details like what is their application status, loan credit amount, income, living situation, family status, assets they own etc. Other file consists of the previous application data of the applicant.
 2.	The current applicant file has a variable Target, which takes values 0,1. 0 stands for people who have paid the loan and 1 for those you have difficulty is paying.
 3.	All the applicants who have difficulty in paying the loan, have been grouped together in the dataframe called as defaulters and other have been grouped in dataframe called as repayers.
