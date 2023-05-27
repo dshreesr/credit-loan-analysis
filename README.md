@@ -1,18 +1,22 @@
-# credit-loan-analysis
+# Credit Risk Analysis
 **Problem Statement:** To find the patterns, variables or driving factors in the data that will help avoid denying the loan to the applicants capable of repaying it.
 
-**Design:**
-1.	We have two types of data for analysis. One consists of current applicants, with details like what is their application status, loan credit amount, income, living situation, family status, assets they own etc. Other file consists of the previous application data of the applicant.
-2.	The current applicant file has a variable Target, which takes values 0,1. 0 stands for people who have paid the loan and 1 for those you have difficulty is paying.
-3.	All the applicants who have difficulty in paying the loan, have been grouped together in the dataframe called as defaulters and other have been grouped in dataframe called as repayers.
-4.	I am doing the further analysis of the dataset by comparing other variables of the dataset with these features.
-5.	Similarly for previous applications data we have 4 different categories based on the status of the loan – approved, cancelled, refused, unused offer.
-6.	For the purpose of analysis, I have used the data with Approved and Refused status and compared the other variables w.r.t to these two categories.
-7.	The previous application file also has the details of current application ID – which helps us understand how many times the user with the current loan application has previously applied for the loan and what was his status. 
-8.	I have further segmented the data on this basis and tried to verify the findings derived from EDA.
-9.	This has helped to understand what could be the driving factors giving the capable applicant the required loan.
-10.	For all the categorical variables I have not replaced the missing values, because replacing them with the mode value would have created imbalance in the data.
-11.	For the numerical variables, I have replaced the null values with mean value.
+**A little about Data:**
+We have two types of data for analysis:
+1. Current applicants - with details like what is their application status, loan credit amount, income, living situation, family status, assets they own etc.
+2. Previous application data of the applicant.
+3. The current applicant file has a variable Target, which takes values 0,1. 0 stands for people who have paid the loan and 1 for those you have difficulty is paying.
+
+**Analysis:**
+5.	All the applicants who have difficulty in paying the loan, have been grouped together in the dataframe called as defaulters and other have been grouped in dataframe called as repayers.
+6.	I am doing the further analysis of the dataset by comparing other variables of the dataset with these features.
+7.	Similarly for previous applications data we have 4 different categories based on the status of the loan – approved, cancelled, refused, unused offer.
+8.	For the purpose of analysis, I have used the data with Approved and Refused status and compared the other variables w.r.t to these two categories.
+9.	The previous application file also has the details of current application ID – which helps us understand how many times the user with the current loan application has previously applied for the loan and what was his status. 
+10.	I have further segmented the data on this basis and tried to verify the findings derived from EDA.
+11.	This has helped to understand what could be the driving factors giving the capable applicant the required loan.
+12.	For all the categorical variables I have not replaced the missing values, because replacing them with the mode value would have created imbalance in the data.
+13.	For the numerical variables, I have replaced the null values with mean value.
 
 **Observation from EDA:**
 1. Defaulters for revolving loans is less.
